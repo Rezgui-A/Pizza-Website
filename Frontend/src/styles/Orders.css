@@ -1,0 +1,107 @@
+.orders-page {
+    padding: 20px;
+  }
+  
+  .orders-container {
+    margin: 20px auto;
+    max-width: 600px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  
+  .order-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .order-item p {
+    margin: 5px 0;
+  }
+
+  /* Styles for the order actions (buttons) */
+.order-actions {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    align-items: center; /* Vertically align buttons */
+    gap: 10px; /* Space between buttons */
+    margin-top: 10px;
+  }
+  
+  .start-over-button {
+    background-color: #ff4d4d; /* Red */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-over-button:hover {
+    background-color: #5d0202; /* Darker red */
+  }
+  
+  .purchase-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .purchase-button:hover {
+    background-color: #388e3c; /* Darker green */
+  }
+  
+  /* Additional styling for the order item */
+  .order-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+  }
+  .order-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .delete-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .favorite-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.2s ease;
+}
+
+.favorite-icon:hover {
+    transform: scale(1.2);
+}
+
+.favorite-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
+  

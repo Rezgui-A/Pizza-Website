@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .left-panel {
+    flex: 1;
+    background: url('../assets/Pizza-3007395.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .logo h1 {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  
+  .social-login p {
+    margin: 20px 0 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+  }
+  
+  .social-icons i {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons i:hover {
+    transform: scale(1.2);
+  }
+  
+  .right-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 20px;
+  }
+  
+  .form-container {
+    width: 80%;
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .btn.login {
+    gap: 10px;
+    color: #0f0e0e;
+  }
+  
+  .btn.register {
+    gap: 10px;  
+    color: #020202;
+  }
+  
+  .btn.login:hover,
+  .btn.register:hover {
+    background: #ff7e5f;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn.submit {
+    background: #ff7e5f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn.submit:hover {
+    background: #feb47b;
+  }
+  
+  .forgot-password {
+    color: #aaa;
+    font-size: 12px;
+    text-align: right;
+    text-decoration: none;
+    margin-top: -10px;
+  }
+  
+  .create-account {
+    color: #ff7e5f;
+    font-size: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
